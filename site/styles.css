@@ -1,0 +1,12 @@
+body
+{
+  text-align: center;
+}
+.box{
+    background-color: orange;
+    color: black;
+    width: 32%;
+    float:left;
+    margin:10px;
+    border-radius:5px;
+}
