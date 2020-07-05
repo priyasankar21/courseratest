@@ -1,9 +1,18 @@
 body {
 	background-color: #61122f;
+	font-size: 16px;
+	color:#ffff;
 	font-family: 'oxygen' , sans-serif;
 }
 #header-nav {
 	background-color: #f6b319;
 	border-radius: 0;
 	border:0;
+	
+}
+#logo-img {
+	background:url("../img.jpg") no-repeat;
+	width:100px;
+	height:100px;
+	margin:10px 15px 10px 0px;
 }
