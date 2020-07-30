@@ -1,0 +1,21 @@
+table{
+	border: 50px;
+	border-color: black;
+	background-color: red;
+	background-size: 200px 200px; 
+	background-blend-mode: lighten;
+	padding:10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-synthesis: 
+}
+audio{
+	background-color: red;
+	padding: 20px;
+	align-items: : center;
+}
+video{
+	background-color: black;
+	padding: 20px;
+	width: 500px;
+}

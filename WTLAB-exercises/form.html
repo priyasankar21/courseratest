@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+	<input type="radio" name="vehicle" value="bike">I have a bike<br>
+	<input type="radio" name="vehicle" value="car">I have a car<br>
+	<fieldset>
+	<legend>details</legend>
+	username:<input type="mail" name="value" placeholder="type your email"><br><br>
+	password:<input type="password" name="password" >
+	<input type="submit" name="submit">
+	</fieldset><br>
+	<br>
+	<!--drop down menu -->
+	<form action="">
+	<select id="cars" name="cars" size="1">
+		<option value="v" selected>volvo</option>
+		<option value="a">audi</option>
+		<option value="s">saab</option>
+	</select>
+	<input type="submit" name="submit">
+</form>
+
+<br><br><br>
+<!--list dropdown-->
+	<form action="">
+		<label for="browsers">choose browser:</label>
+		<input list="browsers" name="br" id="b">
+			<datalist id="browsers">
+				<option value="edge"></option>
+				<option value="firefox"></option>
+				<option value="chrome"></option>
+				
+			</datalist>
+	</form><br>
+	enter age:
+	<input type="number" name="age"><br>
+	volume:
+	<input type="range" name=" volume"><br>
+	choose files:
+	<input type="file" name="myfile">
+
+</body>
+</html>

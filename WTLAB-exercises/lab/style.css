@@ -1,0 +1,45 @@
+body
+		{
+			background: #62122f;
+			color:#fff;
+		}
+		h2{
+			font:red;
+			text-align: center;
+			font-family:'oxygen', sans-serif;
+
+
+		}
+		h1
+		{
+			font-family:"oxygen", sans-serif;
+		}
+		#logo
+		{
+			float:left;
+			padding-left:10px; 
+			padding-right: 10px;
+		}
+		#pic
+		{
+			padding:20px;
+
+		}
+		footer
+		{
+			padding: 10px;
+
+		}
+		section
+		{
+			font-size: 40px;
+			color: white;
+		}
+		footer a
+		{
+			font-size: 30px;
+		}
+		h2 a
+		{
+			flaot:center;
+		}
